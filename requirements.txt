@@ -1,0 +1,27 @@
+# requirements.txt for NeuroVision AI GUI
+# NOTE: You still need system Tk installed (e.g., `sudo apt-get install python3-tk` on Ubuntu/Debian,
+# or `sudo dnf install python3-tkinter` on Fedora/RHEL).
+
+# GUI + theming
+customtkinter>=5.2.2
+darkdetect>=0.8.0
+
+# Imaging
+Pillow>=10.3.0
+
+# Arrays + OpenCV
+numpy>=1.26.4
+opencv-python>=4.9.0.80
+
+# YOLOv8 (Ultralytics) + Torch
+ultralytics>=8.2.0
+# CPU builds by default; replace with the correct CUDA builds if you want GPU acceleration.
+# For GPU you can install PyTorch separately following https://pytorch.org/get-started/locally/
+torch>=2.3.1
+torchvision>=0.18.1
+
+# Optional: DICOM support (only needed if you actually load .dcm files)
+pydicom>=2.4.4
+pylibjpeg>=2.0.0
+pylibjpeg-libjpeg>=2.0.0
+pylibjpeg-openjpeg>=2.0.0

@@ -1,0 +1,8 @@
+How to start Brain to app
+1-Copy folder into the vs code
+2- conda activate neurovision
+3-For old app
+python "E:\Brain-Tumor App\old-app.py"   
+
+4-For New app
+streamlit run "E:\Brain-Tumor App\new-app.py"
